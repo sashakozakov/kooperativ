@@ -37,6 +37,24 @@
 		});
 
 
+  $('a[href*=#]').bind("click", function (e) {
+    var anchor = $(this);
+    $('html, body').stop().animate({
+      scrollTop: $(anchor.attr('href')).offset().top
+    }, 1000);
+    e.preventDefault();
+  });
 
 	});
+
+
+    (function($){
+        $(window).load(function(){
+            $(".comments_container").mCustomScrollbar({
+              theme:"light-thick",
+        scrollButtons:{enable:true}
+            });
+        });
+    })(jQuery);
+
 }(jQuery));

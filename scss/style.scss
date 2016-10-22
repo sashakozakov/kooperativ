@@ -415,11 +415,24 @@ h2{font-size: 35px;}
 
 
 .comments{
-	padding: 50px 0;
+	padding: 50px 0 100px;
+	position: relative;
+	.top{
+		position: absolute;
+		content: "";
+		bottom: 10px;
+		left: 0;right: 0;
+		max-width: 76px;
+		width: 100%;
+		margin: 0 auto;
+		img{
+			width: 100%;
+			display: block;
+		}
+	}
 	.comments_container{
 		margin-top: 30px;
 		height: 600px;
-		overflow-y: scroll;
 		.comment_block{
 			float: left;
 			width: 100%;
