@@ -1,0 +1,39 @@
+.info_section{
+	position: relative;
+	padding: 90px 0 70px;
+	background-size: cover;
+	background-position: 50%;
+	&:before{
+		position: absolute;
+		content: "";
+		bottom: 0;top: 0;right: 0;left: 0;
+		background: #141718;
+		opacity: 0.78;
+	}
+	p{
+		position: relative;
+		font-size: 20px;
+		font-family: $font_pt;
+		color: #FFF;
+		max-width: 1020px;
+		margin: 0 auto;
+		line-height: 1.2;
+		margin-bottom: 80px;
+		&:before{
+			position: absolute;
+			content: "";
+			max-width: 358px;
+			margin: 0 auto;
+			height: 3px;
+			left: 0;right: 0;
+			bottom: -40px;
+			background: #F5551D;
+		}
+		&:last-child{
+			margin-bottom: 0;
+			&:before{
+				display: none;
+			}
+		}
+	}
+}

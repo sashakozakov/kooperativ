@@ -1,0 +1,67 @@
+.rubriki{
+	padding: 42px 0 105px;
+	.circles{
+		margin-top: 40px;
+		font-size: 0;
+		.circle_block{
+			display: inline-block;
+			margin: 0 65px;
+			.progress-radial{
+				position: relative;
+				width: 134px;
+				height: 134px;
+				border-radius: 50%;
+				.overlay{
+					position: absolute;
+					width: 114px;
+					height: 114px;
+					background-color: #fff;
+					border-radius: 50%;
+					margin-left: 10px;
+					margin-top: 10px;
+					text-align: center;
+					line-height: 60px;
+					font-size: 16px;
+					@include vert-align();
+					span{
+						font-size: 52px;
+						font-family: $font;
+						font-weight: 800;
+						color: #F5551D;
+					}
+				}
+			}
+			h6{
+				color: #EB3D00;
+				font-size: 16px;
+				font-family: $font_pt;
+				font-weight: bold;
+				max-width: 130px;
+				margin: 0 auto;
+				text-transform: uppercase;
+				margin-top: 20px;
+			}
+		}
+	}
+
+ .progress-70 {
+ 	background-image:
+ 	linear-gradient(-3deg, #003ceb 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)),
+ 	linear-gradient(296deg, #003ceb 50%, #b7c8fa 50%, #b7c8fa);
+ }
+ .progress-60 {
+ 	background-image:
+ 	linear-gradient(-80deg, #003ceb 50%, transparent 50%, transparent),
+ 	linear-gradient(-47deg, #003ceb 50%, #b7c8fa 50%, #b7c8fa);
+ }
+ .progress-75 {
+ 	background-image:
+ 	linear-gradient(15deg, #003ceb 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)),
+ 	linear-gradient(10deg, #003ceb 50%, #b7c8fa 50%, #b7c8fa);
+ }
+ .progress-90 {
+ 	background-image:
+ 	linear-gradient(54deg, #003ceb 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)),
+ 	linear-gradient(360deg, #003ceb 50%, #b7c8fa 50%, #b7c8fa);
+ }
+}
