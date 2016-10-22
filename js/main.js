@@ -24,5 +24,10 @@
 		$('.home_slider').find('.slick-dots').appendTo('.home_slider .caption .custom_dots');
 
 
+		$('.header .hamburher').click(function() {
+			$(this).toggleClass('opnd');
+			$('.header .menu').toggleClass('menu_opened');
+		});
+
 	});
 }(jQuery));

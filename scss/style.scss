@@ -64,6 +64,9 @@ h2{font-size: 35px;}
 	background: rgba(255,255,255,.9);
 	z-index: 999;
 	.logo{
+		float: left;
+		max-width: 100px;
+		width: 100%;
 		a{
 			display: inline-block;
 			max-width: 99px;
@@ -76,7 +79,7 @@ h2{font-size: 35px;}
 
 	.menu{
 		float: left;
-		width: 100%;
+		width: calc(100% - 100px);
 		padding-top: 35px;
 		nav{
 			ul{
@@ -265,6 +268,7 @@ h2{font-size: 35px;}
 		&_1{
 			float: left;
 			background: #eb3d00;
+			padding-left: 10px;
 			.bg{
 				right: 15%;
 				background: url('../images/orange_bnt.png') no-repeat;
@@ -292,6 +296,7 @@ h2{font-size: 35px;}
 		&_2{
 			float: right;
 			background: #003ceb;
+			padding-right: 10px;
 			.bg{
 				left: 15%;
 				background: url('../images/blue_bnt.png') no-repeat;
