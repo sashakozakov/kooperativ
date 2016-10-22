@@ -118,11 +118,37 @@ h2{font-size: 35px;}
 					}
 					.sub-menu{
 						display: none;
+						position: absolute;
+						top: 111px;
+						background: rgba(255,255,255,.64);
+						width: 100%;
+						left: 0;
+						right: 0;
+						text-align: center;
+						&:before{
+							position: absolute;
+							content: "";
+							top: -50px;
+							left: 0;right: 0;
+							height: 70px;
+						}
+						li{
+							height: 70px;
+							a{
+								line-height: 70px;
+								text-transform: uppercase;
+								&:hover{
+									&:before{
+										display: none;
+									}
+								}
+							}
+						}
 					}
 					&.current_page_item{
 						border-left: 1px solid #113CD9;
 						border-right: 1px solid #113CD9;
-						a{
+						& > a{
 							color: #113CD9;
 							font-weight: bold;
 							&:before{
@@ -131,6 +157,11 @@ h2{font-size: 35px;}
 						}
 					}
 					&.menu-item-has-children{
+						&:hover{
+							&:before{
+								display: block;
+							}
+						}
 						a{
 							&:hover{
 								&:before{

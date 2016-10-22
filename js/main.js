@@ -29,5 +29,10 @@
 			$('.header .menu').toggleClass('menu_opened');
 		});
 
+		$('.menu_opened .menu-item-has-children').click(function() {
+			console.log('helolo');
+			$('.menu.menu_opened .menu-item-has-children .sub-menu').slideToggle("slow");
+		});
+
 	});
 }(jQuery));
