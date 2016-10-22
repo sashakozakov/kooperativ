@@ -16,18 +16,123 @@
 
 
 @media (max-width: 992px){
+	.section_title{
+		font-size: 45px;
+	}
+	.doverie{
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: 100% 100%;
+	}
 
+	.footer {
+		padding: 20px 0;
+		.social{
+			padding: 20px 0 10px;
+			li{
+				a{
+					font-size: 25px;
+				}
+			}
+		}
+		.copyright{
+			p{
+				margin-bottom: 0;
+				font-size: 18px;
+			}
+		}
+	}
 }
 
+@media (max-width: 800px){
+	.doverie .content{
+		p{
+			padding-right: 70px;
+		}
+	}
+}
 @media (max-width: 768px){
+	.profile_image{
+		width: 80px;
+		height: 80px;
+		border-width: 3px;
+	}
+	.doverie .content{
+		padding-right: 0;
+		p{
+			padding-right: 0;
+			& + p{
+				padding-right: 110px;
+			}
+		}
+	}
 
+	.comments .comments_container .comment_block {
+		.comment_message{
+			padding-left: 86px;
+		}
+		&:nth-child(even){
+			.comment_message{
+				padding-left: 0;
+				padding-right: 86px;
+			}
+		}
+	}
 }
 @media (max-width: 700px){
-
 }
 
-@media (max-width: 600px){
+@media (max-width: 640px){
+	.section_title{
+		font-size: 35px;
+	}
 
+
+	.comments .comments_container {
+		.profile_image{
+			width: 60px;
+			height: 60px;
+			border-width: 0;
+		}
+		.comment_block {
+			.comment_message{
+				padding-left: 65px;
+				.message {
+					.site{
+						font-size: 26px;
+					}
+					p{
+						font-size: 14px;
+					}
+				}
+			}
+			&:nth-child(even){
+				.comment_message{
+					padding-left: 0;
+					padding-right: 65px;
+				}
+			}
+		}
+	}
+
+
+	.leave_comment {
+		form {
+			#name,
+			#email{
+				width: 100%;
+				float: left;
+			}
+			label{
+				font-size: 16px;
+			}
+			input[type="submit"]{
+				max-width: 200px;
+				font-size: 20px;
+				padding: 5px 0;
+			}
+		}
+	}
 }
 
 @media (max-width: 550px){
@@ -37,7 +142,60 @@
 
 }
 @media (max-width: 480px){
+	.section_title{
+		font-size: 28px;
+	}
+	.doverie .content{
+		p{
+			& + p{
+				padding-right: 0;
+			}
+		}
+		strong{
+			font-size: 15px;
+		}
+	}
 
+	.comments .comments_container {
+		.profile_image{
+			width: 40px;
+			height: 40px;
+			border-width: 0;
+		}
+		.comment_block {
+			.comment_message{
+				padding-left: 45px;
+				.message {
+					padding: 5px 11px 13px;
+					.site{
+						font-size: 22px;
+					}
+					p{
+						font-size: 14px;
+					}
+				}
+				.comment_buttons a{
+					font-size: 16px;
+					max-width: 120px;
+					padding: 5px 0;
+					margin-bottom: 10px;
+					& + a{
+						margin-left: 5px;
+					}
+				}
+			}
+			&:nth-child(even){
+				.comment_message{
+					padding-left: 0;
+					padding-right: 45px;
+				}
+			}
+		}
+	}
+
+	.leave_comment form label{
+		font-size: 14px;
+	}
 }
 @media (max-width: 440px){
 
