@@ -449,6 +449,22 @@
 .home_slider .slide{
 	background-position: 0;
 }
+	.home_slider .slide .row .caption{
+		left: 50%;
+		transform: translateY(-50%) translateX(-50%);
+		max-width: 310px;
+		padding: 15px;
+		background: rgba(255,255,255,.7);
+		border-radius: 8px;
+	}
+	.home_slider .slick-arrow{
+		&.prev{
+			left: 10px;
+		}
+		&.next{
+			right: 10px;
+		}
+	}
 }
 @media (max-width: 500px){
 
@@ -456,10 +472,6 @@
 @media (max-width: 480px){
 	.section_title{
 		font-size: 28px;
-	}
-	.home_slider .slide .row .caption{
-		left: 50%;
-		transform: translateY(-50%) translateX(-50%);
 	}
 
 	.banner_buttons .button_block .content {
