@@ -196,27 +196,55 @@
 					width: 100%;
 					& > li{
 						display: block;
+						float: left;
+						width: 100%;
 						a{
 							display: inline-block;
+							font-size: 18px;
 							&:before{
 								display: none;
 							}
 						}
 						.sub-menu{
 							position: static;
+							padding-left: 15px;
+							&:before{
+								display: none;
+							}
+							li{
+								float: left;
+								width: 100%;
+								text-align: left;
+								height: auto;
+								a{
+									line-height: 30px;
+								}
+								&.current_page_item{
+									a{
+										font-weight: bold;
+										color: #113CD9;
+									}
+								}
+							}
 						}
 						&.menu-item-has-children{
 							position: relative;
 							&:before{
 								position: absolute;
 								content: "";
-								width: 10px;
-								top: 50%;
-								transform: translateY(-50%) rotate(180deg);
+								width: 15px;
+								top: 10px;
+								transform: rotate(180deg);
 								right: 15px;
-								border-left: 5px solid transparent;
-								border-right: 5px solid transparent;
-								border-bottom: 5px solid #EB3D00;
+								border-left: 8px solid transparent;
+								border-right: 8px solid transparent;
+								border-bottom: 8px solid #EB3D00;
+								cursor: pointer;
+							}
+							&.sub-opened{
+								&:before{
+									transform: rotate(0deg);
+								}
 							}
 						}
 						&.current_page_item{

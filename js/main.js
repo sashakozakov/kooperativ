@@ -29,10 +29,14 @@
 			$('.header .menu').toggleClass('menu_opened');
 		});
 
-		$('.menu_opened .menu-item-has-children').click(function() {
-			console.log('helolo');
-			$('.menu.menu_opened .menu-item-has-children .sub-menu').slideToggle("slow");
+		$('.menu .menu-item-has-children').click(function(e) {
+				if (e.target == this) {
+					$(this).parent().find('.sub-menu').slideToggle("slow");
+					$(this).toggleClass('sub-opened');
+				}
 		});
+
+
 
 	});
 }(jQuery));
