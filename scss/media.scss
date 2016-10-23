@@ -73,6 +73,10 @@
 			}
 		}
 	}
+
+	.lica .mkh_doverie .block_container .block{
+		width: 33.33%;
+	}
 }
 
 @media (max-width: 900px){
@@ -94,6 +98,42 @@
 			}
 			.phone{
 				font-size: 26px;
+			}
+		}
+		&.fiz_slider {
+			.slick-arrow{
+				&.next{
+					right: 10px;
+				}
+				&.prev{
+					left: 10px;
+				}
+			}
+			.slide {
+				height: 450px;
+				.row {
+					.caption{
+						left: 50%;
+						transform: translateY(-50%) translateX(-50%);
+						max-width: 520px;
+						width: 100%;
+						.icon{
+							img{
+								width: 60px;
+							}
+						}
+						h1{
+							font-size: 28px;
+						}
+						h5{
+							font-size: 20px;
+						}
+						.line{
+							margin-top: 20px;
+							margin-bottom: 20px;
+						}
+					}
+				}
 			}
 		}
 	}
@@ -150,6 +190,9 @@
 		position: absolute;
 		.logo{
 			max-width: 65px;
+		}
+		.header_tel{
+			padding-top: 2px;
 		}
 		.hamburher{
 				float: right;
@@ -280,6 +323,33 @@
 			padding-right: 70px;
 		}
 	}
+
+	.lica {
+		.fiz_ur_content {
+			.features_grid {
+				ul{
+					&:before{display: none;}
+					li{
+						width: 100%;
+						padding-right: 0;
+						&:after{
+							display: block;
+						}
+						&:nth-last-child(2){
+							&:after{
+								display: block;
+							}
+						}
+						&:last-child{
+							&:after{
+								display: none;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
 }
 @media (max-width: 768px){
 	.home_slider {
@@ -398,8 +468,17 @@
 }
 
 @media (max-width: 640px){
+	.header{
+		.header_tel{
+			padding-top: 15px;
+			font-size: 24px;
+		}
+	}
 	.section_title{
 		font-size: 35px;
+	}
+	.title_subtitle{
+		font-size: 29px;
 	}
 
 
@@ -433,6 +512,12 @@
 	.banner_buttons .button_block{
 		width: 100%;
 		text-align: center;
+		&.fiz_lica_btn {
+			height: auto;
+			.content h3{
+				font-size: 16px;
+			}
+		}
 	}
 
 	.comments .comments_container {
@@ -502,13 +587,34 @@
 			right: 10px;
 		}
 	}
+
+	.lica .mkh_doverie .block_container .block{
+		width: 50%;
+	}
 }
 @media (max-width: 500px){
-
+.lica{
+	&_fiz {
+		.fiz_form {
+			form{
+				#name,
+				#surname,
+				#tel,
+				#email,
+				.width-1-2{
+					width: 100%;
+				}
+			}
+		}
+	}
+}
 }
 @media (max-width: 480px){
 	.section_title{
 		font-size: 28px;
+	}
+	.title_subtitle{
+		font-size: 22px;
 	}
 
 	.banner_buttons .button_block .content {
@@ -614,5 +720,42 @@
 		h6{
 			font-size: 14px;
 		}
+	}
+
+	.lica {
+		.fiz_ur_content {
+			.features_grid {
+				ul {
+					li{
+						padding-left: 25px;
+						.feature_block {
+							.image {
+								width: 50px;
+								.img{
+									width: 50px;
+									height: 50px;
+									img, svg{
+										width: 26px;
+										height: 26px;
+									}
+								}
+							}
+							.content{
+								width: calc(100% - 50px);
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.home_slider.fiz_slider .slide .row .caption h1{
+		font-size: 24px;
+	}
+}
+@media (max-width: 360px){
+	.lica .mkh_doverie .block_container .block{
+		width: 100%;
 	}
 }
