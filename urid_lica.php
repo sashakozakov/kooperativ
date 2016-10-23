@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-	<title>Физические Лица</title>
+	<title>Юридические Лица</title>
 
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800|PT+Sans:400,700" rel="stylesheet">
 	<!-- Bootstrap -->
@@ -23,7 +23,7 @@
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
 </head>
-<body id="top" class="lica lica_fiz">
+<body id="top" class="lica lica_fiz lica_urid">
 
 	<header class="header">
 		<div class="row">
@@ -34,17 +34,17 @@
 					</a>
 				</div>
 
-				<a href="tel:84997559734" class="header_tel">8 (499) 755-97-34</a>
+				<a href="tel:84997559734" class="header_tel blue">8 (499) 755-97-34</a>
 			</div>
 		</div>
 	</header>
 
-	<section class="home_slider fiz_slider">
+	<section class="home_slider fiz_slider urid_slider">
 		<div class="slide" style="background-image:url('images/slide1.jpg')">
 			<div class="row">
-				<div class="caption">
+				<div class="caption blue">
 				<div class="icon">
-					<img src="images/fiz_icon_slider.png" alt="icon name">
+					<img src="images/urid_icon_slider.png" alt="icon name">
 				</div>
 					<h1>для</h1>
 					<h1>Физических лиц</h1>
@@ -57,9 +57,9 @@
 		</div>
 		<div class="slide" style="background-image:url('images/slide2.jpg')">
 			<div class="row">
-				<div class="caption">
+				<div class="caption blue">
 				<div class="icon">
-					<img src="images/fiz_icon_slider.png" alt="icon name">
+					<img src="images/urid_icon_slider.png" alt="icon name">
 				</div>
 					<h1>для</h1>
 					<h1>Физических лиц</h1>
@@ -73,29 +73,29 @@
 
 		<div class="banner_buttons">
 			<div class="row">
-				<div class="button_block button_block_1 fiz_lica_btn">
+				<a href="#" class="button_block button_block_1">
+					<div class="bg"></div>
+					<div class="content">
+						<img src="images/fiz_lic.png" alt="Физическим лицам">
+						<h3>Юридическим лицам</h3>
+					</div>
+				</a>
+				<div class="button_block button_block_2 fiz_lica_btn blue">
 					<div class="content">
 						<h3>Основные практические моменты выгоды
 							заключаются в следующем:</h3>
 					</div>
 				</div>
-				<a href="#" class="button_block button_block_2">
-					<div class="bg"></div>
-					<div class="content">
-						<img src="images/ur_lic.png" alt="Юридическим лицам">
-						<h3>Юридическим лицам</h3>
-					</div>
-				</a>
 			</div>
 		</div>
 	</section>
 
-	<section class="fiz_ur_content fiz_cont">
+	<section class="fiz_ur_content urid_cont">
 		<div class="row">
 			<div class="col-md-12">
 				<div class="list_cont">
 					<p>
-						Потребительское общество создано для удовлетворения потребностей его пайщиков, то есть вступивших в ПО МКХ. За относительно невысокую сумму, вносимую при вступлении: 100 рублей – вступительный взнос (при выходе из Общества не возвращается) и 500 рублей – минимальный паевой взнос (при выходе из Общества подлежит возврату) пайщик получает практически неограниченный перечень льгот и выгод для себя!
+						Потребительское общество создано для удовлетворения потребностей его пайщиков, то есть вступивших в ПО МКХ. За относительно невысокую сумму, вносимую при вступлении: 2000 рублей – вступительный взнос (при выходе из Общества не возвращается) и 1000 рублей – минимальный паевой взнос (при выходе из Общества подлежит возврату), пайщик получает практически неограниченный перечень льгот и выгод для себя!
 					</p>
 				</div>
 			</div>
@@ -255,7 +255,7 @@
 
 
 
-	<section class="mkh_doverie">
+	<section class="mkh_doverie urid_lica">
 		<div class="row text-center">
 			<h2 class="section_title">ПО МКХ «ДОВЕРИЕ»</h2>
 			<h4 class="title_subtitle">Существуют такие понятия, как</h4>
@@ -318,7 +318,7 @@
 		</div>
 	</section>
 
-	<section class="fiz_form">
+	<section class="urid_form">
 		<div class="row">
 			<div class="col-md-12">
 				<h2 class="section_title text-center">ФОРМА ЗАЯВКИ</h2>
@@ -330,17 +330,8 @@
 		<div class="row">
 			<div class="col-md-12">
 				<form action="#" method="post">
-					<input type="text" id="surname" placeholder="Фамилия">
-					<input type="text" id="name" placeholder="Имя">
-					<input type="text" id="otch" placeholder="Отчество">
-					<div class="width-1-2">
-						<label>Дата рождения</label>
-						<input type="date" id="date">
-					</div>
-					<div class="width-1-2">
-						<label>Номер паспорта</label>
-						<input type="text" id="passport" placeholder="№">
-					</div>
+					<input type="text" id="company" placeholder="Название компании">
+					<input type="text" id="inn" placeholder="ИНН">
 					<input type="tel" id="tel" placeholder="Телефон">
 					<input type="email" id="email" placeholder="E-mail">
 					<textarea placeholder="Текст"></textarea>

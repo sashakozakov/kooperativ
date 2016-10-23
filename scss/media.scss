@@ -135,6 +135,15 @@
 					}
 				}
 			}
+			&.urid_slider{
+				.slide{
+					.row{
+						.caption{
+							left: 50%;
+						}
+					}
+				}
+			}
 		}
 	}
 	.banner_buttons .button_block {
@@ -150,6 +159,11 @@
 				float: none;
 			}
 		}
+	}
+
+	.banner_buttons .button_block.fiz_lica_btn .content h3{
+		margin: 0;
+		font-size: 19px;
 	}
 }
 
