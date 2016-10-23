@@ -10,7 +10,6 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800|PT+Sans:400,700" rel="stylesheet">
 	<!-- Bootstrap -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/fonts.css" rel="stylesheet">
 	<link href="css/font-awesome.min.css" rel="stylesheet">
 	<link href="css/jquery.mCustomScrollbar.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
