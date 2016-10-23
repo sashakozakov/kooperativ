@@ -2,8 +2,6 @@
 (function ($) {
 	$(document).ready(function () {
 		var $slider = $('.home_slider');
-		// var $slider = $('.slider-image');
-		var $testimonials = $('.testimonial-slider');
 
 		$slider.slick({
 			dots: true,
