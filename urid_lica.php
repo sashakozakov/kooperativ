@@ -183,8 +183,8 @@
 							<div class="content matchHeight_text">
 								<div>
 									<p>
-										На паевой взнос пайщика не обращаются иски по
-										долгам пайщика, как физического лица.
+										На паевой взнос пайщика не обращаются иски по долгам
+										пайщика, как юридического лица.
 									</p>
 								</div>
 							</div>
@@ -202,7 +202,8 @@
 									<p>
 										Паевые взносы не декларируются. При возврате паевого
 										взноса (внесение в виде увеличения и возврат в виде
-										уменьшения) не облагается НДФЛ и не декларируется.
+										уменьшения) не облагается налогом на прибыль
+										(так как прибылью не является) и не декларируется.
 									</p>
 								</div>
 							</div>
@@ -237,9 +238,103 @@
 							<div class="content matchHeight_text">
 								<div>
 									<p>
-										Пайщик получает возможность пользоваться на льготных
-										условиях услугами, предоставляемыми пайщиками
-										Общества, и потреблять товары из паевого фонда Общества.
+										Пайщик получает возможность пользоваться на льготных условиях услугами, предоставляемыми пайщиками Общества, и потреблять товары из паевого фонда Общества.
+									</p>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="matchHeight">
+						<div class="feature_block">
+							<div class="image matchHeight_text">
+								<div class="img">
+									<?php echo file_get_contents('images/progress-report.svg'); ?>
+								</div>
+							</div>
+							<div class="content matchHeight_text">
+								<div>
+									<p>
+										Участие в «Программе целостного социального-экономического развития кооперативного движения в России на период до 2030 года» (с последующей пролонгацией) по следующим направлениям: агропромышленное, строительное, распределительно-закупочное, внедрение в производство новейших логий, развитие медицины, образования, культуры.
+									</p>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="matchHeight">
+						<div class="feature_block">
+							<div class="image matchHeight_text">
+								<div class="img">
+									<?php echo file_get_contents('images/percent.svg'); ?>
+								</div>
+							</div>
+							<div class="content matchHeight_text">
+								<div>
+									<p>
+										Снижение налоговой нагрузки, путем перевода части бизнеса в Общество (некомерческая деятельность налогами не облагается).
+									</p>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="matchHeight">
+						<div class="feature_block">
+							<div class="image matchHeight_text">
+								<div class="img">
+									<?php echo file_get_contents('images/increase-currency.svg'); ?>
+								</div>
+							</div>
+							<div class="content matchHeight_text">
+								<div>
+									<p>
+										Повышение рентабельности производства за счет минимизирования издержек.
+									</p>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="matchHeight">
+						<div class="feature_block">
+							<div class="image matchHeight_text">
+								<div class="img">
+									<?php echo file_get_contents('images/reduce.svg'); ?>
+								</div>
+							</div>
+							<div class="content matchHeight_text">
+								<div>
+									<p>
+										Уменьшение налога на прибыль в размере оплаты членских взносов (на определенных условиях).
+									</p>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="matchHeight">
+						<div class="feature_block">
+							<div class="image matchHeight_text">
+								<div class="img">
+									<?php echo file_get_contents('images/bar-graph-with-dollar-sign.svg'); ?>
+								</div>
+							</div>
+							<div class="content matchHeight_text">
+								<div>
+									<p>
+										Возможность для хозяина бизнеса получения части чистой прибыли без налоговой нагрузки (НДФЛ).
+									</p>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="matchHeight">
+						<div class="feature_block">
+							<div class="image matchHeight_text">
+								<div class="img">
+									<?php echo file_get_contents('images/.svg'); ?>
+								</div>
+							</div>
+							<div class="content matchHeight_text">
+								<div>
+									<p>
+										Принципиально новая инфраструктура движения товаров и денежных средств.
 									</p>
 								</div>
 							</div>
