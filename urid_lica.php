@@ -328,7 +328,7 @@
 						<div class="feature_block">
 							<div class="image matchHeight_text">
 								<div class="img">
-									<?php echo file_get_contents('images/.svg'); ?>
+									<?php echo file_get_contents('images/logistics-delivery-truck-in-movement.svg'); ?>
 								</div>
 							</div>
 							<div class="content matchHeight_text">
